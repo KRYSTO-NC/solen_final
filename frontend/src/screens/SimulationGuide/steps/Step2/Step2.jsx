@@ -48,9 +48,7 @@ const Step2 = ({ installation, onNext }) => {
           demandeur: selectedThirdParty ? selectedThirdParty.id : null,
         });
   
-      console.log('====================================');
-      console.log(installation);
-      console.log('====================================');
+ 
       toast.success("Demandeur ajouté avec succées.");
     } catch (error) {
       toast.error(
