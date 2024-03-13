@@ -15,7 +15,7 @@ export const dolliThirdPartyApiSlice = apiSlice.injectEndpoints({
           url: `${DOLIBAR_URL}/thirdparties?${params}`,
           headers: {
             DOLAPIKEY: DOLIBARR_API_KEY,
-          },
+          }, 
         }
       },
       keepUnusedDataFor: 5,

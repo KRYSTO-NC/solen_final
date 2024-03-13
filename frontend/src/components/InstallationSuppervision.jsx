@@ -9,7 +9,6 @@ import { useGetSimulationDetailsQuery, useUpdateSimulationMutation } from "../sl
 
 const InstallationSuppervision = ({
   suppervision,
-
   prof,
   installationId,
 }) => {
